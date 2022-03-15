@@ -10,7 +10,6 @@
 		517AEB3627DFB06000D00075 /* LoginFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517AEB3527DFB06000D00075 /* LoginFlow.swift */; };
 		51BAB29527DF9CEF00B2FC6D /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 51BAB29427DF9CEF00B2FC6D /* Resources */; };
 		DD0D79552593AECB0065267F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D79542593AECB0065267F /* AppDelegate.m */; };
-		DD0D79582593AECB0065267F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D79572593AECB0065267F /* ViewController.m */; };
 		DD0D795A2593AECC0065267F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD0D79592593AECC0065267F /* Assets.xcassets */; };
 		DD0D795D2593AECC0065267F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0D795B2593AECC0065267F /* Main.storyboard */; };
 		DD0D79602593AECC0065267F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0D795F2593AECC0065267F /* main.m */; };
@@ -24,8 +23,6 @@
 		DD0D79502593AECB0065267F /* CoreFollowUpPoC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreFollowUpPoC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD0D79532593AECB0065267F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DD0D79542593AECB0065267F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DD0D79562593AECB0065267F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DD0D79572593AECB0065267F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DD0D79592593AECC0065267F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD0D795C2593AECC0065267F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD0D795E2593AECC0065267F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,8 +77,6 @@
 				51BAB29427DF9CEF00B2FC6D /* Resources */,
 				DD0D79532593AECB0065267F /* AppDelegate.h */,
 				DD0D79542593AECB0065267F /* AppDelegate.m */,
-				DD0D79562593AECB0065267F /* ViewController.h */,
-				DD0D79572593AECB0065267F /* ViewController.m */,
 				DD0D79592593AECC0065267F /* Assets.xcassets */,
 				DD0D795B2593AECC0065267F /* Main.storyboard */,
 				DD0D795E2593AECC0065267F /* Info.plist */,
@@ -173,7 +168,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				517AEB3627DFB06000D00075 /* LoginFlow.swift in Sources */,
-				DD0D79582593AECB0065267F /* ViewController.m in Sources */,
 				DD0D79602593AECC0065267F /* main.m in Sources */,
 				DD0D79982593B8B70065267F /* CFUPhishingAttack.m in Sources */,
 				DD0D79552593AECB0065267F /* AppDelegate.m in Sources */,

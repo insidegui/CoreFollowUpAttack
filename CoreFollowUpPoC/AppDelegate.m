@@ -28,10 +28,14 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)notification
 {
     NSString *testURL = [[NSUserDefaults standardUserDefaults] stringForKey:@"CFUOpenURL"];
+    
     if (testURL) {
         [self cfu_openURL:testURL];
     } else {
+        NSLog(@"Triggering attack in 10s...");
+        
         self.attack = [CFUPhishingAttack new];
+        
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(10 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             [self.attack postNotification];
         });
@@ -44,12 +48,6 @@
     NSLog(@"Handle URL: %@", url);
     
     [self cfu_openURL:url];
-    
-//    NSAlert *alert = [NSAlert new];
-//    alert.messageText = @"URL";
-//    alert.informativeText = [NSString stringWithFormat:@"I would open URL %@", url];
-//    [alert addButtonWithTitle:@"OK"];
-//    [alert runModal];
 }
 
 - (void)cfu_openURL:(NSString *)url
