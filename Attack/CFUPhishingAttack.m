@@ -32,9 +32,8 @@
 - (void)postNotification
 {
     // This code posts a follow up item that sends a notification, badges the System Preferences app icon in the Dock,
-    // and shows a scary-looking message in system preferences below the user's Apple ID. The URL is just a placeholder
-    // for this proof-of-concept, but it could be very well be an official-looking form where the user is required
-    // to fill in their Apple ID and password (and other information) for a phishing attack.
+    // and shows a scary-looking message in system preferences below the user's Apple ID. The URL is for the URL scheme
+    // of this proof-of-concept app, when activated it shows a fake Apple ID sign in panel.
     
     FLFollowUpItem *item = [NSClassFromString(@"FLFollowUpItem") new];
     item.title = @"Please confirm your Apple ID information";
